@@ -1,0 +1,56 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: white;
+    color: black;
+}
+
+header {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    padding: 100px;
+}
+.container {
+    display: grid;
+    margin: 0 auto;
+    width: 800px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+   
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 50px;
+}
+
+.item h2 {
+    font-size: 18px;
+    padding:  20px 0;
+}
+
+/*
+
+    grid container  = padre
+    grid items      = hijo / hijos
+    grid lines      = lineas
+    grid tracks     = filas/ columnas
+    grid areas      = toda area rectangular, que esta limitado por un grid lines
+    grid celda      = espacio interceptado por lineas y columnas.
+
+*/
+
