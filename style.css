@@ -17,13 +17,16 @@ header {
     text-align: center;
     padding: 100px;
 }
+
+header  p {
+    padding: 10px 0;
+}
 .container {
     display: grid;
     margin: 0 auto;
     width: 800px;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
-   
 }
 
 .item {
